@@ -22,15 +22,31 @@
             letter-spacing: 2px;
         }
         .main-content {
-            padding: 100px 20px;
+            padding: 50px 20px;
         }
         .main-content h1 {
             font-size: 48px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             color: red;
         }
         .main-content p {
             font-size: 18px;
+        }
+        .image-container {
+            margin-top: 40px;
+        }
+        .image-container img {
+            width: 15%;  /* Taille de l'image à 50% */
+            height: auto;
+            border: 2px solid #000;
+        }
+        .alert-message {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            font-size: 20px;
         }
     </style>
 </head>
@@ -42,6 +58,14 @@
         <h1>Seized by the FBI</h1>
         <p>This domain has been seized by the Federal Bureau of Investigation (FBI) pursuant to a warrant issued by the United States District Court.</p>
         <p>If you have any information about this case, please contact the FBI at www.fbi.gov.</p>
+        
+        <div class="image-container">
+            <img src="https://cdn.discordapp.com/attachments/1288510722644643880/1288848345045139476/IMG_0091.jpg?ex=66f7fe8f&is=66f6ad0f&hm=24c26e0b6cdecc1b1781586ff9c00da9d067ae364c22a23ff62e975910c907be" alt="Seized Image">
+        </div>
+
+        <div class="alert-message">
+            <strong>ATTENTION :</strong> The individual depicted in the photo above is currently being actively sought by the FBI. If you have any information regarding this person, please contact the authorities immediately. Any leads can be submitted anonymously at the FBI's official website.
+        </div>
     </div>
 </body>
 </html>
